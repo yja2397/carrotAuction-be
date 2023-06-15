@@ -12,8 +12,8 @@ import (
 // code for production usage.
 func withConfig() {
 	config := mysql.NewConfig()
-	config.User = "2vbfrew9lh37noua6yry"
-	config.Passwd = "pscale_pw_tkUaQFH0K8BLjwbLYlBmEQHfoXYw9VFzhdzxmGqEbyt"
+	config.User = "cop19j2zl0trerj3fz0n"
+	config.Passwd = "pscale_pw_HgFeh7XzmFVedyIoOsQb2k1dZAOXbnvW3MjHHvm2fle"
 	config.Net = "tcp"
 	config.Addr = "aws.connect.psdb.cloud"
 	config.DBName = "carrot_auction"
